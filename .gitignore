@@ -223,6 +223,5 @@ __marimo__/
 
 # Ignore all extra data files EXCEPT the specific samples we want to showcase
 data/*
-!data/01-jumps.txt
+!data/beach-volleyball.txt
 !data/scatter_events_en.png
-.streamlit/secrets.toml
