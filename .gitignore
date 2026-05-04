@@ -215,4 +215,14 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
+
+# --- Custom Ignore Rules for IMU Project ---
+
+# Ignore IDE settings (PyCharm)
+.idea/
+
+# Ignore all extra data files EXCEPT the specific samples we want to showcase
+data/*
+!data/01-jumps.txt
+!data/scatter_events_en.png
 .streamlit/secrets.toml
